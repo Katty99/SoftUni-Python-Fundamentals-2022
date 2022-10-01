@@ -1,7 +1,0 @@
-import sys
-number = input()
-largest_number = ''
-for current_number in range(len(number)):
-    if int(current_number) > -sys.maxsize:
-        largest_number += number[current_number]
-print(largest_number)
